@@ -11,7 +11,8 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Ben Tsai # add your name
 author-img: bentsai7.jpg # add your photo
-about-author: GuangZhou, China Software Engineering Student of Sun Yat-sen University # add description
+about-author: GuangZhou, China 
+Software Engineering Student of Sun Yat-sen University # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: BenTsai7 # add your Github handle
