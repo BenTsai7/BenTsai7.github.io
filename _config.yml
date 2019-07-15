@@ -1,4 +1,4 @@
-title: Hello, world! I'm Ben Tsai
+title: Hello, World! I'm Ben Tsai
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -11,8 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Ben Tsai # add your name
 author-img: bentsai7.jpg # add your photo
-about-author: GuangZhou, China 
-Software Engineering Student of Sun Yat-sen University # add description
+about-author: GuangZhou, China Software Engineering Student of Sun Yat-sen University # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: BenTsai7 # add your Github handle
