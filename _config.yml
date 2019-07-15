@@ -1,75 +1,37 @@
-# Site settings
-title: Ben Tsai Blog
-SEOTitle: Ben Tsai 的博客 | Ben Tsai Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "Software Engineering Student | 这里是 Ben Tsai 的个人博客，与你一起发现更大的世界。"
-keyword: "Ben Tsai, BenTsai7, @BenTsai7,  Ben Tsai 的博客, 博客, 个人网站, 互联网, Web, Github Pages"
-url: "https://bentsai7.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+title: Hello, world! I'm David Freeman
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
 
-# Publish posts or collection documents with a future date.
-future: true
+# Author Settings
+author: David Freeman # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+social-twitter: # add your Twitter handle
+social-facebook: # add your Facebook handle
+social-github: artemsheludko # add your Github handle
+social-linkedin: # add your Linkedin handle
+social-email: # add your Email address
 
-# SNS settings
-RSS: false
+# Disqus
+discus-identifier: mr-brown # add your discus identifier
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-timezone: CN  
+# Tracker
+analytics: # Google Analytics
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# Build Settings
 markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
 
-# Disqus settings
-disqus_username: hux
+paginate: 8
+paginate_path: "/page/:num"
 
-# Netease settings
-netease_comment: false
-
-# Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
-
-# Google Analytics
-ga_track_id:            # Format: UA-xxxxxx-xx
-ga_domain:
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/icon.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
