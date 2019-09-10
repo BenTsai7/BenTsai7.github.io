@@ -1,39 +1,50 @@
-title: Hello, World! I'm Ben Tsai
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://bentsai7.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+title: 'Hello,World!'
+description: 
+keyword: 
+url: 'https://bentsai7.github.io'
+baseurl: '/'
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
+# Footer
+footer:
+  since: 2019
+# Author
+author: Ben Tsai
+nickname: 
+bio: 
+avatar: ''
+# Search
+search: true
+# Night mode
+nightMode: true
+# MathJax
+mathjax: true
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+theme-color: 'default'
+postPatterns: 'circuitBoard'
+sns:
+  twitter:
+  email: bentsai@gmail.com
+  facebook: 
+  github: 
 
-# Author Settings
-author: Ben Tsai # add your name
-author-img: bentsai7.jpg # add your photo
-location: Guangzhou, China 
-about-author: Software Engineering Student of Sun Yat-sen University # add description
-info-author: 
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: BenTsai7 # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: bentsai@gmail.com # add your Email address
-
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
-markdown: redcarpet
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
-
-paginate: 10
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+recommend-tags: false # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 0 # a tag will be recommended if the size of it is more than this value
+# Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+# RSS
+RSS: false
+permalink: /:year/:month/:day/:title.html
+# Plugins
+plugins: [jekyll-paginate]
