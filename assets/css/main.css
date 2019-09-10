@@ -821,6 +821,7 @@ pre code {
   padding-right: 0;
   padding-left: 0;
   overflow: auto;
+  line-height: 1.23;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
