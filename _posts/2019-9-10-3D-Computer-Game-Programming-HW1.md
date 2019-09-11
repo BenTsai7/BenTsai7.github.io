@@ -265,12 +265,13 @@ table的部件可以从Hierarchy视图中看到，组件有 Transform，Mesh等�
 
 使用Unity UI组件进行简单的构建，这里只需要简单的用到Button，表示棋盘，Canvas为画布显示，Camera为摄像机。
 
+[完整代码](https://github.com/BenTsai7/3D-Computer-Game-Programming/tree/master/HW1/Tic-Tac-Toe)
+
 演示效果：
 
 ![f862df1a-0879-4deb-8664-691c53672433]({{site.baseurl}}/assets/assets/f862df1a-0879-4deb-8664-691c53672433.gif)
 
 如图所示，
-
 
 9个Button组成一个Board棋盘，Text类型的Result用于展示结果，ResetButton用于重新开始游戏
 
