@@ -1,3 +1,12 @@
+---
+layout: post
+title: 空间与运动
+date: 2019-9-10 10:32:20 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Unity3D]
+---
 ### 空间与运动
 
 #### 1、简答并用程序验证
@@ -182,7 +191,8 @@
   
   
   ![img]({{site.baseurl}}/assets/assets/gif.gif)
-<video id="video" controls="{{site.baseurl}}/assets/assets/演示.avi" preload="none" >
+  
+<video id="video" controls="https://bentsai7.github.io/3D-Computer-Game-Programming-HW2/assets/assets/演示.avi" preload="none" >
       <source src="" type="video/avi">
 </video>
 根据课件上的架构图以及从https://github.com/pmlpml/unity3d-learning/tree/motion/Assets上下载到的关于空间与运动的代码，可实现游戏结构。
