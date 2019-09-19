@@ -193,7 +193,7 @@ tags: [Unity3D]
   ![img]({{site.baseurl}}/assets/assets/gif.gif)
   
 <video id="video">
-      <source src="https://bentsai7.github.io/3D-Computer-Game-Programming-HW2/assets/assets/演示.mp4" type="video/mp4">
+      <source src="https://bentsai7.github.io/assets/assets/演示.mp4" type="video/mp4">
 </video>
 根据课件上的架构图以及从https://github.com/pmlpml/unity3d-learning/tree/motion/Assets上下载到的关于空间与运动的代码，可实现游戏结构。
 
