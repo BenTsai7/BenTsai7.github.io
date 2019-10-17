@@ -14,6 +14,12 @@ tags: [Unity3D]
 按 adapter模式设计图修改飞碟游戏
 使它同时支持物理运动与运动学（变换）运动**
 
+演示如下：可以看到飞碟多了抛物线运动以及相撞的效果。
+
+<video id="video" width="500" height="300" controls="controls">
+        <source src="https://bentsai7.github.io/assets/assets/演示hw5.mp4" type="video/mp4">
+  </video>
+
 ![1569156878849]({{site.baseurl}}/assets/assets/1569156878849.png)
 
 之前我们实现的飞碟游戏的运动是建立在`CCActionManager`的基础上的，是非物理学变换运动。而如果要实现新的物理学变换的动作管理器，又不改变删除原有的非物理学变换运动动作管理器，可以通过适配器模式来实现。
