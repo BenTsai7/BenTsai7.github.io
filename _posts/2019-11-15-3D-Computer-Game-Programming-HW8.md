@@ -25,7 +25,7 @@ tags: [Unity3D]
 
 ##### IMGUI实现
 
-`IMGUI`的实现比较简单，利用的是`HorizontalScrollbar`来表示血条，`Mathf.Lerp`通过插值裱花控制血条的变化快慢，使得血条变化较为平滑。
+`IMGUI`的实现比较简单，利用的是`HorizontalScrollbar`来表示血条，`Mathf.Lerp`通过插值变化控制血条的变化快慢，使得血条变化较为平滑。
 
 ```c#
 using System.Collections;
